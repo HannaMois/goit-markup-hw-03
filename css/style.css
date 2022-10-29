@@ -136,7 +136,6 @@ ul {
  
 /* Герой */
 .hero {
-    margin-bottom: 94px;
     text-align: center;
 
     letter-spacing: 0.06em;
@@ -157,7 +156,6 @@ ul {
 /* Кнопка */
 .hero.button {
     padding: 7px 32px 13px 32px;
-    margin-bottom: 197px;
 
     font-family: inherit;
     font-weight: 700;
@@ -181,7 +179,8 @@ ul {
 
 /* Особливості */
  .section.features {
-    margin-bottom: 94px;     
+    padding-top: 94px;
+    padding-bottom: 94px;     
 } 
 
 .features-list {
@@ -321,8 +320,8 @@ ul {
  /* Портфоліо */
 
 .section.port {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
  /* port-nav */
