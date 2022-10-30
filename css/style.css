@@ -137,7 +137,8 @@ ul {
 /* Герой */
 .hero {
     text-align: center;
-
+    padding-top: 200px;
+    padding-bottom: 200px;
     letter-spacing: 0.06em;
     color: var(--white-color);
     background-color: var(--background-color-footer);
@@ -161,6 +162,7 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
     background-color: var(--accent-color);
     min-width: 216px;
     height: 50px;
@@ -246,7 +248,8 @@ ul {
     background-color: var(--background-color-first);
 }
 
-.section.team>.section-title {
+
+.main-team>.section-title {
     padding-top: 94px;
     margin-bottom: 50px;
 }
@@ -256,14 +259,20 @@ ul {
     padding-bottom: 94px;
 }
 
+.card {
+    background-color: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-content .card + .card {
     margin-left: 30px;
 }
 
-.team-img {
-    margin-bottom: 30px;
+.signature {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-
 .section-title.name {
     text-align: center;
 
@@ -281,12 +290,10 @@ ul {
 
 /* Підвал */
 .footer {
-    background-color: var(--background-color-footer);
-}
-
-.footer>.container{
     padding-top: 60px;
     padding-bottom: 60px;
+
+    background-color: var(--background-color-footer);
 }
 
 .footer-list {
@@ -325,16 +332,16 @@ ul {
 }
 
  /* port-nav */
-.port-nav {
+.container.progect .port-nav {
     margin-bottom: 50px;    
 }
 
-.port {
+.port-nav {
     display: flex;
     justify-content: center;
 }
 
-.port .item + .item {
+.port-nav .item + .item {
     margin-left: 8px;
 }
  
@@ -366,7 +373,7 @@ ul {
     cursor: pointer;
 }
 
-/*  port-list */
+/*  group */
 .group {
     display: flex;
     flex-wrap: wrap;
