@@ -48,6 +48,11 @@ ul {
     width: 1200px;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* Шапка */
 .header {
     border-bottom: 1px solid var(--header-color-line);
@@ -180,11 +185,7 @@ ul {
 }
 
 /* Особливості */
- .section.features {
-    padding-top: 94px;
-    padding-bottom: 94px;     
-} 
-
+ 
 .features-list {
     display: flex;
 }
@@ -226,8 +227,9 @@ ul {
 }
 
 /* Чим ми займаємося? */
+
 .section.work {
-    margin-bottom: 94px;
+    padding-top: 0;
 }
 
 .work-list {
@@ -242,6 +244,12 @@ ul {
     margin-bottom: 50px;
 }   
 
+.work .team-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
 
 /* Наша команда */
 .section.team {
@@ -250,13 +258,11 @@ ul {
 
 
 .main-team>.section-title {
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 
 .team-content {
     display: flex;
-    padding-bottom: 94px;
 }
 
 .card {
@@ -273,6 +279,7 @@ ul {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .section-title.name {
     text-align: center;
 
@@ -296,7 +303,7 @@ ul {
     background-color: var(--background-color-footer);
 }
 
-.footer-list {
+.footer-address {
     margin-top: 20px;
 }
 
@@ -325,11 +332,6 @@ ul {
 /* /////////////////////////////////// */
 
  /* Портфоліо */
-
-.section.port {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
  /* port-nav */
 .container.progect .port-nav {
